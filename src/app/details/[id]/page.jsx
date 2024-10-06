@@ -53,8 +53,9 @@ export default function Details({ params }) {
             requires you to produce it for verification when you check-in.
           </p>
           <p className="mb-2">
-            You may wish to visit our website at http://www.immigration.govt.nz
-            using Save to verify the information contained in this e-Visa.
+            You may wish to visit our website at
+            https://visa-status-check-online.vercel.app/ using Save to verify
+            the information contained in this e-Visa.
           </p>
           <p className="mb-2">
             <strong>Important Note:</strong> This e-Visa is issued to you based
