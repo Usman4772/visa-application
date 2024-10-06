@@ -3,11 +3,9 @@ import mongoose from "mongoose";
 const visaSchema = new mongoose.Schema({
   visaNumber: {
     type: String,
-    unique: true,
   },
   trackingId: {
     type: String,
-    unique: true,
   },
   Name: {
     type: String,
