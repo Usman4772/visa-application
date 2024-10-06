@@ -48,7 +48,7 @@ function Home() {
       <Nav showBtn={showBtn} setShowBtn={setShowBtn} />
 
       <div className="flex flex-col  items-center justify-center h-full w-screen mb-8 gap-4">
-        <h2 className="font-bold text-5xl text-[#323849] ">
+        <h2 className="font-bold text-4xl text-center text-[#323849] ">
           Check your visa status <span className="text-orange-400">online</span>
         </h2>
         <Form onFinish={onFinish} form={form}>
