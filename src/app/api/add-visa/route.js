@@ -5,14 +5,7 @@ import { NextResponse } from "next/server";
 export async function POST(req) {
   connectDb();
   const data = await req.json();
-  const { trackingId, visaNumber } = data;
-  const visa = await Visa.findOne({ trackingId, visaNumber });
-  if (visa) {
-    return NextResponse.json(
-      { message: "Visa already exists", success: false },
-      { status: 400 }
-    );
-  }
+
   if (!data)
     return NextResponse.json(
       {
