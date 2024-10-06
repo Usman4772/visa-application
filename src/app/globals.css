@@ -39,6 +39,10 @@ body{
   z-index: 2;
 }
 .barcode{
+  width: 60%;
+  height: 10vh; 
+  padding: 30px 0;
+  background-position: center;
   background: url("../public/images/barcode.png");
   background-repeat: no-repeat;
   background-size: cover;

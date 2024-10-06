@@ -68,6 +68,9 @@ const VisaDataDisplay = ({ details }) => {
         <span className="font-bold w-1/3">Visa Processing Fee:</span>
         <span className=" font-semibold">572/ NZD</span>
       </div>
+      <div className="w-full flex justify-start mt-4">
+        <div className="barcode"></div>
+      </div>
     </div>
   );
 };
